@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&family=Courgette&family=Delius&family=Edu+QLD+Beginner:wght@500&family=Inconsolata&family=Josefin+Sans:ital,wght@1,300&family=Kalam:wght@300&family=Lilita+One&family=Oleo+Script+Swash+Caps&family=Poiret+One&family=Roboto+Mono&family=Roboto:wght@300;400&family=Tilt+Neon&display=swap');
+.galery{
+    width:100%;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+.card{
+    margin: 30px 0;
+    width: 300px;
+    height: 350px;
+    border: 2px solid rgb(212, 212, 212);
+    border-radius: 16px;
+    background-color: #fff;
+}
+.contentimg{
+    width: 95%;
+    height: 250px;
+    border-radius: 16px;
+    box-shadow: 0px 5px 8px rgb(191, 191, 191);
+    margin: 0 auto;
+}
+.contentimg img{
+    width: 100%;
+    height: 100%;
+    border-radius: 16px;
+}
+.content{
+    width: 100%;
+    margin: 10px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.content h2{
+    margin-top:-5px;
+    font-family: 'Alkatra', cursive;
+}
+.tittppdp{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+.tittppdp p{
+    margin-top: -4px;
+    font-size: 1.2em;
+    font-weight: bold;
+    text-decoration:underline;
+    font-family: 'Alkatra', cursive;
+}
+.priceppdp{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+.priceppdp p{
+    font-size: 1.2em;
+    font-weight: bold;
+    color: red;
+    font-family: 'Alkatra', cursive;
+}
+@media(max-width:600px){
+    .galery{
+        width: 100%;
+    }
+    .card{
+        margin:10px auto;
+    }
+}
